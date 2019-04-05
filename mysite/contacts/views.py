@@ -1,5 +1,5 @@
 from django.shortcuts import render
 
 
-def index(request):
+def contacts(request):
     return render(request, 'contacts/allContacts.html')

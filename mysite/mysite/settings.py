@@ -39,15 +39,16 @@ RENAMED = [
     'django.contrib.staticfiles',
 ]
 
-CONTACTS = [
-    'contacts'
+MY_APPS = [
+    'main',
+    'contacts',
+    'publishing',
+    'author',
+    'genre',
+    'series',
 ]
 
-MAIN = [
-    'main'
-]
-
-INSTALLED_APPS = CONTACTS + MAIN + RENAMED
+INSTALLED_APPS = MY_APPS + RENAMED
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',

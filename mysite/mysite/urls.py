@@ -20,4 +20,8 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('main.urls')),
     path('contacts', include('contacts.urls')),
+    # path('publishing', include('publishing.urls')),
+    # path('author', include('author.urls')),
+    # path('genre', include('genre.urls')),
+    # path('series', include('series.urls')),
 ]
