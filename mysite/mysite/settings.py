@@ -42,10 +42,7 @@ RENAMED = [
 MY_APPS = [
     'main',
     'contacts',
-    'publishing',
-    'author',
-    'genre',
-    'series',
+    'products',
 ]
 
 INSTALLED_APPS = MY_APPS + RENAMED
@@ -127,5 +124,9 @@ USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.1/howto/static-files/
+
+# MEDIA_URL = 'images/'
+
+# MEDIA_ROOT = os.path.join(BASE_DIR, 'images')
 
 STATIC_URL = '/static/'
