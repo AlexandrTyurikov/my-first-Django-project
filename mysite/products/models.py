@@ -47,16 +47,14 @@ class Products(models.Model):
         'Цена',
         max_digits=10,
         decimal_places=2)
-    author = models.ForeignKey(
+    author = models.ManyToManyField(
         'Author',
         related_name='products',
-        verbose_name='Автор(ы)',
-        on_delete=models.PROTECT)
-    genre = models.ForeignKey(
+        verbose_name='Автор(ы)')
+    genre = models.ManyToManyField(
         'Genre',
         related_name='products',
-        verbose_name='Жанр(ы)',
-        on_delete=models.PROTECT)
+        verbose_name='Жанр(ы)')
     series = models.CharField(
         'Серия',
         null=True,

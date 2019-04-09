@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eada2f2a-e9e4-4a5e-8048-54691b58f48f" name="Default Changelist" comment="test" />
+    <list default="true" id="eada2f2a-e9e4-4a5e-8048-54691b58f48f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/mysite/products/migrations/0003_auto_20190409_2227.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/products/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/products/models.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,8 +18,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mysite/mysite/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="464">
-              <caret line="132" lean-forward="true" selection-start-line="132" selection-end-line="132" />
+            <state relative-caret-position="466">
+              <caret line="132" selection-start-line="132" selection-end-line="132" />
             </state>
           </provider>
         </entry>
@@ -22,7 +27,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mysite/mysite/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="464">
+            <state relative-caret-position="504">
               <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
               <folding>
                 <element signature="e#630#662#0" expanded="true" />
@@ -31,11 +36,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mysite/products/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="336">
+              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
@@ -43,11 +48,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mysite/products/admin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+            <state relative-caret-position="72">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
               </folding>
@@ -96,8 +101,8 @@
         <option value="$PROJECT_DIR$/mysite/author/models.py" />
         <option value="$PROJECT_DIR$/mysite/mysite/urls.py" />
         <option value="$PROJECT_DIR$/mysite/mysite/settings.py" />
-        <option value="$PROJECT_DIR$/mysite/products/models.py" />
         <option value="$PROJECT_DIR$/mysite/products/admin.py" />
+        <option value="$PROJECT_DIR$/mysite/products/models.py" />
       </list>
     </option>
   </component>
@@ -120,11 +125,6 @@
             <path>
               <item name="online_bookstore" type="b2602c69:ProjectViewProjectNode" />
               <item name="online_bookstore" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="online_bookstore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="online_bookstore" type="462c0819:PsiDirectoryNode" />
-              <item name="mysite" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -190,10 +190,9 @@
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17650273" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17650273" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="SVN Repositories" weight="0.32937366" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32937366" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -202,9 +201,10 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32937366" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49945354" visible="true" weight="0.28725702" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49945354" visible="true" weight="0.28725702" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50054646" side_tool="true" weight="0.30237582" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32937366" />
+      <window_info anchor="bottom" id="SVN Repositories" order="11" weight="0.32937366" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -213,7 +213,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test" />
     <MESSAGE value="images((" />
-    <option name="LAST_COMMIT_MESSAGE" value="images((" />
+    <MESSAGE value="vvod mnogo" />
+    <option name="LAST_COMMIT_MESSAGE" value="vvod mnogo" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/mysite/mysite/__init__.py">
@@ -349,14 +350,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mysite/mysite/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="132" lean-forward="true" selection-start-line="132" selection-end-line="132" />
+        <state relative-caret-position="466">
+          <caret line="132" selection-start-line="132" selection-end-line="132" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mysite/mysite/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
+        <state relative-caret-position="504">
           <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
           <folding>
             <element signature="e#630#662#0" expanded="true" />
@@ -364,22 +365,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mysite/products/models.py">
+    <entry file="file://$PROJECT_DIR$/mysite/products/admin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="72">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
           <folding>
-            <element signature="e#0#28#0" expanded="true" />
+            <element signature="e#0#32#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mysite/products/admin.py">
+    <entry file="file://$PROJECT_DIR$/mysite/products/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        <state relative-caret-position="336">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
           <folding>
-            <element signature="e#0#32#0" expanded="true" />
+            <element signature="e#0#28#0" expanded="true" />
           </folding>
         </state>
       </provider>
