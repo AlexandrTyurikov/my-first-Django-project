@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Book</title>
+</head>
+{% extends 'main/wrapper.html' %}
+
+{% block content %}
+Товар:<br>
+    {{ object.name }} <br>
+    {{ object.image }}<br>
+    {{ object.price }}<br>
+    {{ object.author }}<br>
+    {{ object.genre }}<br>
+    {{ object.series }}<br>
+    {{ object.publishing }}<br>
+    {{ object.year }}<br>
+    {{ object.pages }}<br>
+    {{ object.binding }}<br>
+    {{ object.format }}<br>
+    {{ object.isbn }}<br>
+    {{ object.weight }}<br>
+    {{ object.age_limit }}<br>
+    {{ object.sum }}<br>
+    {{ object.available }}<br>
+    {{ object.rating }}<br>
+    {{ object.creation_date }}<br>
+    {{ object.update_date }}<br>
+{% endblock %}
+</html>

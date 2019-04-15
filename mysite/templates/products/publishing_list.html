@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Publishing</title>
+</head>
+{% extends 'main/wrapper.html' %}
+
+{% block content %}
+<ul>Издательства:
+    {% for object in object_list %}
+    <li>
+        {{ object.publishing }} - г.{{ object.city }}
+    </li>
+    {% endfor %}
+</ul>
+{% endblock %}
+</html>

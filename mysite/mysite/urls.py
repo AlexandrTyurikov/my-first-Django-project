@@ -15,6 +15,9 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
+
+from products.views import *
+
 # from django.conf.urls.static import static
 # from . import settings
 
@@ -22,4 +25,12 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('main.urls')),
     path('contacts', include('contacts.urls')),
+    path('products/author/<int:pk>', AuthorDetail.as_view()),
+    path('products/genre/<int:pk>', GenreDetail.as_view()),
+    path('products/publishing/<int:pk>', PublishingDetail.as_view()),
+    path('products/books/<int:pk>', ProductsDetail.as_view()),
+    path('products/author/', AuthorList.as_view()),
+    path('products/genre/', GenreList.as_view()),
+    path('products/publishing/', PublishingList.as_view()),
+    path('products/books/', ProductsList.as_view()),
 ]  # + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

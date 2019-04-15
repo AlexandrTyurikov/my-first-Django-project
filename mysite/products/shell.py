@@ -1,6 +1,6 @@
-# from products.models import *    - (сначало ввести это)
-# from products.shell import (выбрать функцию)
+from products.models import *
 from .models import *
+# from products.shell import (выбрать функцию)
 
 
 def create_author(obj):
@@ -32,8 +32,8 @@ def count(ref):
 # count(Genre)    - ввести в терминал - выдаст колличество жанров
 
 
-auth_list = []
-for i in range(1, 101):
-    obj = Author(name='new name ' + str(i))
-    auth_list.append(obj)
-Author.objects.bulk_create(auth_list)
+# auth_list = []
+# for i in range(1, 101):
+#     obj = Author(name='new name ' + str(i))
+#     auth_list.append(obj)
+# Author.objects.bulk_create(auth_list)

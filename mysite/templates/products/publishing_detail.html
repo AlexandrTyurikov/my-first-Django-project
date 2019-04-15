@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Publishing</title>
+</head>
+{% extends 'main/wrapper.html' %}
+
+{% block content %}Издательство:
+    {{ object.publishing }} - г.{{ object.city }}
+{% endblock %}
+</html>
