@@ -8,11 +8,16 @@
 
 {% block content %}
 Товар:<br>
+
     {{ object.name }} <br>
     {{ object.image }}<br>
     {{ object.price }}<br>
-    {{ object.author }}<br>
-    {{ object.genre }}<br>
+{% for author in products.author.all %}
+    {{ author }}<br>
+{% endfor %}
+{% for genre in products.genre.all %}
+    {{ genre }}<br>
+{% endfor %}
     {{ object.series }}<br>
     {{ object.publishing }}<br>
     {{ object.year }}<br>
@@ -27,5 +32,6 @@
     {{ object.rating }}<br>
     {{ object.creation_date }}<br>
     {{ object.update_date }}<br>
+
 {% endblock %}
 </html>
