@@ -7,30 +7,64 @@
 {% extends 'main/wrapper.html' %}
 
 {% block content %}
-<ul>Товары:
-    {% for object in object_list %}
-    <li>
-        {{ object.name }} <br>
-        {{ object.image }}<br>
-        {{ object.price }}<br>
-        {{ object.author }}<br>
-        {{ object.genre }}<br>
-        {{ object.series }}<br>
-        {{ object.publishing }}<br>
-        {{ object.year }}<br>
-        {{ object.pages }}<br>
-        {{ object.binding }}<br>
-        {{ object.format }}<br>
-        {{ object.isbn }}<br>
-        {{ object.weight }}<br>
-        {{ object.age_limit }}<br>
-        {{ object.sum }}<br>
-        {{ object.available }}<br>
-        {{ object.rating }}<br>
-        {{ object.creation_date }}<br>
-        {{ object.update_date }}<br>
-    </li>
-    {% endfor %}
-</ul>
+   <table border="1">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Название книги</th>
+                <th>Обложка</th>
+                <th>Цена</th>
+                <th>Автор</th>
+                <th>Жанр</th>
+                <th>Серия</th>
+                <th>Издательство</th>
+                <th>Год издания</th>
+                <th>Страниц</th>
+                <th>Переплет</th>
+                <th>Формат</th>
+                <th>ISBN</th>
+                <th>Вес</th>
+                <th>Возрастные ограничения</th>
+                <th>Количество книг в наличии</th>
+                <th>Доступна для заказа</th>
+                <th>Рейтинг</th>
+                <th>Дата и время создания</th>
+                <th>Дата и время изменения</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for object in object_list %}
+            <tr>
+                <td>{{ object.pk }}</td>
+                <td>
+                    <a href="{% url 'book_dv' object.pk %}" target="_blank"> {{ object.name }} </a>
+                </td>
+                <td>{{ object.image }}</td>
+                <td>{{ object.price }}</td>
+                <td>
+                    {{ object.author }}
+                    {% for author in products.author.all %} {{ author }} {% endfor %}
+                </td>
+                <td>
+                    {% for genre in products.genre.all %} {{ genre }} {% endfor %}
+                </td>
+                <td>{{ object.series }}</td>
+                <td>{{ object.publishing }}</td>
+                <td>{{ object.year }}</td>
+                <td>{{ object.pages }}</td>
+                <td>{{ object.binding }}</td>
+                <td>{{ object.format }}</td>
+                <td>{{ object.isbn }}</td>
+                <td>{{ object.weight }}</td>
+                <td>{{ object.age_limit }}</td>
+                <td>{{ object.sum }}</td>
+                <td>{{ object.available }}</td>
+                <td>{{ object.rating }}</td>
+                <td>{{ object.creation_date }}</td>
+                <td>{{ object.update_date }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
 {% endblock %}
 </html>

@@ -7,12 +7,29 @@
 {% extends 'main/wrapper.html' %}
 
 {% block content %}
-<ul>Авторы:
-    {% for object in object_list %}
-    <li>
-        {{ object.name }}
-    </li>
-    {% endfor %}
-</ul>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>
+                    ID
+                </th>
+                <th>
+                    Авторы
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for object in object_list %}
+            <tr>
+                <td>
+                    {{ object.pk }}
+                </td>
+                <td>
+                    <a href="{% url 'author_dv' object.pk %}" target="_blank"> {{ object.name }} </a>
+                </td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
 {% endblock %}
 </html>

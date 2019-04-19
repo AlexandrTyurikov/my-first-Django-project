@@ -7,12 +7,35 @@
 {% extends 'main/wrapper.html' %}
 
 {% block content %}
-<ul>Издательства:
-    {% for object in object_list %}
-    <li>
-        {{ object.publishing }} - г.{{ object.city }}
-    </li>
-    {% endfor %}
-</ul>
+   <table border="1">
+        <thead>
+            <tr>
+                <th>
+                    ID
+                </th>
+                <th>
+                    Издательство
+                </th>
+                <th>
+                    Город
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for object in object_list %}
+            <tr>
+                <td>
+                    {{ object.pk }}
+                </td>
+                <td>
+                    <a href="{% url 'publishing_dv' object.pk %}" target="_blank"> {{ object }} </a>
+                </td>
+                <td>
+                    {{ object.city }}
+                </td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
 {% endblock %}
 </html>
