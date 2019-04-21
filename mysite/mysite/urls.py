@@ -18,19 +18,26 @@ from django.urls import path, include
 
 from products.views import *
 
-# from django.conf.urls.static import static
-# from . import settings
+from django.conf.urls.static import static
+from . import settings
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('main.urls')),
     path('contacts', include('contacts.urls')),
     path('products/author/<int:pk>', AuthorDetail.as_view(), name='author_dv'),
+    path('products/series/<int:pk>', SeriesDetail.as_view(), name='series_dv'),
     path('products/genre/<int:pk>', GenreDetail.as_view(), name='genre_dv'),
     path('products/publishing/<int:pk>', PublishingDetail.as_view(), name='publishing_dv'),
     path('products/book/<int:pk>', ProductsDetail.as_view(), name='book_dv'),
-    path('products/authors/', AuthorList.as_view(), name='author_lv'),
-    path('products/genres/', GenreList.as_view(), name='genre_lv'),
-    path('products/publishing/', PublishingList.as_view(), name='publishing_lv'),
-    path('products/books/', ProductsList.as_view(), name='book_lv'),
-]  # + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+    path('products/author/', AuthorList.as_view(), name='authors_lv'),
+    path('products/series/', SeriesList.as_view(), name='series_lv'),
+    path('products/genre/', GenreList.as_view(), name='genres_lv'),
+    path('products/publishing/', PublishingList.as_view(), name='publishings_lv'),
+    path('products/book/', ProductsList.as_view(), name='books_lv'),
+    path('products/allhandbookview/', AllHandbookView.as_view()),
+] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+if settings.DEBUG:
+    urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
+    urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

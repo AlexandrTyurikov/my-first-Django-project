@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+{% extends 'main/wrapper.html' %}
+
+{% block content %}
+    <table border="1">
+        <caption>СПРАВОЧНИКИ</caption>
+            <tr>
+                <th>
+                    <a href="{% url 'authors_lv' %}" target="_blank"> Авторы </a>
+                </th>
+                <th>
+                    <a href="{% url 'series_lv' %}" target="_blank"> Серии </a>
+                </th>
+                <th>
+                    <a href="{% url 'genres_lv' %}" target="_blank"> Жанры </a>
+                </th>
+                <th>
+                    <a href="{% url 'publishings_lv' %}" target="_blank"> Издательства </a>
+                </th>
+                <th>
+                    <a href="{% url 'books_lv' %}" target="_blank"> Книги </a>
+                </th>
+            </tr>
+    </table>
+{% endblock %}
+</html>

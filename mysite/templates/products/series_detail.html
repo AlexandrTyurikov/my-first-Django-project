@@ -2,12 +2,12 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Genre</title>
+    <title>Series</title>
 </head>
 {% extends 'main/wrapper.html' %}
 
 {% block content %}
-Жанр - {{ object.genre }}<br>
-Описание - {{ object.description }}
+Серия:
+    {{ object.series }} - описание: {{ object.description }}
 {% endblock %}
 </html>

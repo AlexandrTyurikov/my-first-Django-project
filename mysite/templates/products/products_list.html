@@ -39,14 +39,15 @@
                 <td>
                     <a href="{% url 'book_dv' object.pk %}" target="_blank"> {{ object.name }} </a>
                 </td>
-                <td>{{ object.image }}</td>
+
+                <td><img src = '{{ object.image }}' height="120" width="80"/></td>
+
                 <td>{{ object.price }}</td>
                 <td>
-                    {{ object.author }}
-                    {% for author in products.author.all %} {{ author }} {% endfor %}
+                    {% for object in object.author.all %} {{ object }} {% endfor %}
                 </td>
                 <td>
-                    {% for genre in products.genre.all %} {{ genre }} {% endfor %}
+                    {% for object in object.genre.all %} {{ object }} {% endfor %}
                 </td>
                 <td>{{ object.series }}</td>
                 <td>{{ object.publishing }}</td>

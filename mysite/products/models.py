@@ -14,8 +14,21 @@ class Author(models.Model):
         verbose_name_plural = 'Авторы'
 
 
+class Series(models.Model):
+    series = models.CharField('Серия', max_length=120)
+    description = models.TextField('Описание')
+
+    def __str__(self):
+        return self.series
+
+    class Meta:
+        verbose_name = 'Серия'
+        verbose_name_plural = 'Серии'
+
+
 class Genre(models.Model):
-    genre = models.CharField('Жанр(ы)', max_length=120)
+    genre = models.CharField('Жанр', max_length=120)
+    description = models.TextField('Описание')
 
     def __str__(self):
         return self.genre
@@ -48,7 +61,7 @@ class Products(models.Model):
     price = models.DecimalField('Цена', max_digits=10, decimal_places=2)
     author = models.ManyToManyField('Author', related_name='products', verbose_name='Автор(ы)')
     genre = models.ManyToManyField('Genre', related_name='products', verbose_name='Жанр(ы)')
-    series = models.CharField('Серия', null=True, blank=True, max_length=80)
+    series = models.ForeignKey('Series', null=True, blank=True, verbose_name='Серия', on_delete=models.PROTECT)
     publishing = models.ForeignKey('Publishing', verbose_name='Издательство', on_delete=models.PROTECT)
     year = models.IntegerField('Год издания')
     pages = models.IntegerField('Страниц')

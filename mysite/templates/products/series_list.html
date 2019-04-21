@@ -2,17 +2,23 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Genre</title>
+    <title>Series</title>
 </head>
 {% extends 'main/wrapper.html' %}
 
 {% block content %}
-    <table border="1">
+   <table border="1">
         <thead>
             <tr>
-                <th>ID</th>
-                <th>Жанры</th>
-                <th>Описание</th>
+                <th>
+                    ID
+                </th>
+                <th>
+                    Серия
+                </th>
+                <th>
+                    Описание
+                </th>
             </tr>
         </thead>
         <tbody>
@@ -22,7 +28,7 @@
                     {{ object.pk }}
                 </td>
                 <td>
-                    <a href="{% url 'genre_dv' object.pk %}" target="_blank"> {{ object.genre }} </a>
+                    <a href="{% url 'series_dv' object.pk %}" target="_blank"> {{ object }} </a>
                 </td>
                 <td>
                     {{ object.description }}
