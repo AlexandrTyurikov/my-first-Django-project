@@ -1,13 +1,20 @@
 from django.db import models
+from django.urls import reverse_lazy
+
 
 # from django.utils.safestring import mark_safe
 
 
 class Author(models.Model):
+    active = models.BooleanField('Автор жив', default=True)
     name = models.CharField('Автор(ы)', max_length=120)
+    description = models.TextField('Автобиография', null=True, blank=True)
 
     def __str__(self):
         return self.name
+
+    def get_absolute_url(self):
+        return reverse_lazy('author_dv', kwargs={'pk': self.pk})
 
     class Meta:
         verbose_name = 'Автор'
@@ -15,11 +22,14 @@ class Author(models.Model):
 
 
 class Series(models.Model):
-    series = models.CharField('Серия', max_length=120)
-    description = models.TextField('Описание')
+    name = models.CharField('Серия', max_length=120)
+    description = models.TextField('Описание', null=True, blank=True)
 
     def __str__(self):
-        return self.series
+        return self.name
+
+    def get_absolute_url(self):
+        return reverse_lazy('series_dv', kwargs={'pk': self.pk})
 
     class Meta:
         verbose_name = 'Серия'
@@ -27,11 +37,14 @@ class Series(models.Model):
 
 
 class Genre(models.Model):
-    genre = models.CharField('Жанр', max_length=120)
-    description = models.TextField('Описание')
+    name = models.CharField('Жанр', max_length=120)
+    description = models.TextField('Описание', null=True, blank=True)
 
     def __str__(self):
-        return self.genre
+        return self.name
+
+    def get_absolute_url(self):
+        return reverse_lazy('genre_dv', kwargs={'pk': self.pk})
 
     class Meta:
         verbose_name = 'Жанр'
@@ -39,11 +52,14 @@ class Genre(models.Model):
 
 
 class Publishing(models.Model):
-    publishing = models.CharField('Издательство', max_length=120)
-    city = models.CharField('Город', max_length=40)
+    name = models.CharField('Издательство', max_length=120)
+    description = models.CharField('Город', max_length=40)
 
     def __str__(self):
-        return self.publishing
+        return self.name
+
+    def get_absolute_url(self):
+        return reverse_lazy('publishing_dv', kwargs={'pk': self.pk})
 
     class Meta:
         verbose_name = 'Издательство'
@@ -71,10 +87,13 @@ class Products(models.Model):
     weight = models.CharField('Вес', max_length=10)
     age_limit = models.CharField('Возрастные ограничения', max_length=4)
     sum = models.IntegerField('Количество книг в наличии')
-    available = models.BooleanField('Доступна для заказа', default=True)
+    active = models.BooleanField('Доступна для заказа', default=True)
     rating = models.DecimalField('Рейтинг', max_digits=2, decimal_places=1)
     creation_date = models.DateTimeField('Дата и время создания', auto_now=False, auto_now_add=True)
     update_date = models.DateTimeField('Дата и время изменения', auto_now=True, auto_now_add=False)
+
+    def get_absolute_url(self):
+        return reverse_lazy('book_dv', kwargs={'pk': self.pk})
 
     class Meta:
         verbose_name = 'Книга'

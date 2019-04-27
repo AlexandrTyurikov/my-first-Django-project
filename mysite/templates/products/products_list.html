@@ -8,8 +8,9 @@
 
 {% block content %}
 <form action="" method="get">
-      <input type="search" placeholder="Введите ключевое слово" aria-label="Search" name="bbb">
-      <button type="submit">Поиск</button>
+    Введите ключевое слово:{{ form.search }}<br>
+    Доступна для заказа{{ form.active }}
+    <button type="submit">Поиск</button>
 </form>
    <table border="1">
         <thead>
@@ -48,10 +49,14 @@
 
                 <td>{{ object.price }}</td>
                 <td>
-                    {% for object in object.author.all %} {{ object }} {% endfor %}
+                    {% for object in object.author.all %}
+                        {{ object }}
+                    {% endfor %}
                 </td>
                 <td>
-                    {% for object in object.genre.all %} {{ object }} {% endfor %}
+                    {% for object in object.genre.all %}
+                        {{ object }}
+                    {% endfor %}
                 </td>
                 <td>{{ object.series }}</td>
                 <td>{{ object.publishing }}</td>
@@ -63,7 +68,7 @@
                 <td>{{ object.weight }}</td>
                 <td>{{ object.age_limit }}</td>
                 <td>{{ object.sum }}</td>
-                <td>{{ object.available }}</td>
+                <td>{{ object.active }}</td>
                 <td>{{ object.rating }}</td>
                 <td>{{ object.creation_date }}</td>
                 <td>{{ object.update_date }}</td>

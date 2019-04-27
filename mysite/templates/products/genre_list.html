@@ -2,13 +2,13 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Genre</title>
+    <title>Genres</title>
 </head>
 {% extends 'main/wrapper.html' %}
 
 {% block content %}
 <form action="" method="get">
-      <input type="search" placeholder="Введите ключевое слово" aria-label="Search" name="ggg">
+    {{ form }}
       <button type="submit">Поиск</button>
 </form>
     <table border="1">
@@ -16,7 +16,6 @@
             <tr>
                 <th>ID</th>
                 <th>Жанры</th>
-                <th>Описание</th>
             </tr>
         </thead>
         <tbody>
@@ -26,10 +25,7 @@
                     {{ object.pk }}
                 </td>
                 <td>
-                    <a href="{% url 'genre_dv' object.pk %}" target="_blank"> {{ object.genre }} </a>
-                </td>
-                <td>
-                    {{ object.description }}
+                    <a href="{% url 'genre_dv' object.pk %}" target="_blank"> {{ object.name }} </a>
                 </td>
             </tr>
             {% endfor %}

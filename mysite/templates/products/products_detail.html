@@ -11,11 +11,11 @@
     {{ object.name }} <br>
     {{ object.image }}<br>
     {{ object.price }}<br>
-{% for author in products.author.all %}
-    {{ author }}<br>
+{% for object in object.author.all %}
+    {{ object }}<br>
 {% endfor %}
-{% for genre in products.genre.all %}
-    {{ genre }}<br>
+{% for object in object.genre.all %}
+    {{ object }}<br>
 {% endfor %}
     {{ object.series }}<br>
     {{ object.publishing }}<br>

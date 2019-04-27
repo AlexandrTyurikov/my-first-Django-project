@@ -33,9 +33,19 @@ urlpatterns = [
     path('products/author/', AuthorList.as_view(), name='authors_lv'),
     path('products/series/', SeriesList.as_view(), name='series_lv'),
     path('products/genre/', GenreList.as_view(), name='genres_lv'),
-    path('products/publishing/', PublishingList.as_view(), name='publishings_lv'),
+    path('products/publishing/', PublishingList.as_view(), name='publishing_lv'),
     path('products/book/', ProductsList.as_view(), name='books_lv'),
     path('products/allhandbookview/', AllHandbookView.as_view()),
+    path('products/author/create', AuthorCreate.as_view(), name='author_cv'),
+    path('products/series/create', SeriesCreate.as_view(), name='series_cv'),
+    path('products/genre/create', GenreCreate.as_view(), name='genre_cv'),
+    path('products/publishing/create', PublishingCreate.as_view(), name='publishing_cv'),
+    path('products/book/create', ProductsCreate.as_view(), name='book_cv'),
+    path('products/author/create/<int:pk>', AuthorUpdate.as_view(), name='author_uv'),
+    path('products/series/create/<int:pk>', SeriesUpdate.as_view(), name='series_uv'),
+    path('products/genre/create/<int:pk>', GenreUpdate.as_view(), name='genre_uv'),
+    path('products/publishing/create/<int:pk>', PublishingUpdate.as_view(), name='publishing_uv'),
+    path('products/book/create/<int:pk>', ProductsUpdate.as_view(), name='book_uv'),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
 if settings.DEBUG:

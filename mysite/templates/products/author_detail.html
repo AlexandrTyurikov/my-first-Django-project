@@ -2,12 +2,14 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Authors</title>
+    <title>Author</title>
 </head>
 {% extends 'main/wrapper.html' %}
 
 {% block content %}
 Автор -
-    {{ object.name }}
+    {{ object.name }}<br>
+Автобиография:
+    {{ object.description }}
 {% endblock %}
 </html>

@@ -8,7 +8,7 @@
 
 {% block content %}
 <form action="" method="get">
-      <input type="search" placeholder="Введите ключевое слово" aria-label="Search" name="sss">
+      {{ form }}
       <button type="submit">Поиск</button>
 </form>
    <table border="1">
@@ -20,9 +20,6 @@
                 <th>
                     Серия
                 </th>
-                <th>
-                    Описание
-                </th>
             </tr>
         </thead>
         <tbody>
@@ -32,10 +29,7 @@
                     {{ object.pk }}
                 </td>
                 <td>
-                    <a href="{% url 'series_dv' object.pk %}" target="_blank"> {{ object }} </a>
-                </td>
-                <td>
-                    {{ object.description }}
+                    <a href="{% url 'series_dv' object.pk %}" target="_blank"> {{ object.name }} </a>
                 </td>
             </tr>
             {% endfor %}

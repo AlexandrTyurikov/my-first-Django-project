@@ -14,7 +14,7 @@ class ProductsAdmin(admin.ModelAdmin):
 
 
 class PublishingAdmin(admin.ModelAdmin):
-    list_display = ('publishing', 'city')
+    list_display = ('name', 'description')
 
 
 #    def image_tag(self, obj):

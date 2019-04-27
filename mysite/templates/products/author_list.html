@@ -2,14 +2,15 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Author</title>
+    <title>Authors</title>
 </head>
 {% extends 'main/wrapper.html' %}
 
 {% block content %}
 <form action="" method="get">
-      <input type="search" placeholder="Введите ключевое слово" aria-label="Search" name="aaa">
-      <button type="submit">Поиск</button>
+        Введите ключевое слово:{{ form.search }}<br>
+    Автор жив{{ form.active }}<br>
+      <button type="submit">Найти</button>
 </form>
     <table border="1">
         <thead>
@@ -25,9 +26,7 @@
         <tbody>
             {% for object in object_list %}
             <tr>
-                <td>
-                    {{ object.pk }}
-                </td>
+                <td>{{ object.pk }}</td>
                 <td>
                     <a href="{% url 'author_dv' object.pk %}" target="_blank"> {{ object.name }} </a>
                 </td>
