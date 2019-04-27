@@ -1,28 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eada2f2a-e9e4-4a5e-8048-54691b58f48f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/mysite/templates/products/update_form.html" afterDir="false" />
+    <list default="true" id="eada2f2a-e9e4-4a5e-8048-54691b58f48f" name="Default Changelist" comment="update son dlya slabakov">
+      <change afterPath="$PROJECT_DIR$/mysite/son dlya slabakov" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/mysite/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/mysite/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/products/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/products/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/templates/products/all_handbook_view.html" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/templates/products/all_handbook_view.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/templates/products/author_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/templates/products/author_detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/templates/products/author_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/templates/products/create_form.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/templates/products/author_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/templates/products/author_list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/templates/products/genre_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/templates/products/genre_detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/templates/products/genre_form.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/templates/products/genre_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/templates/products/genre_list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/templates/products/products_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/templates/products/products_detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/templates/products/products_form.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/templates/products/products_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/templates/products/products_list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/templates/products/publishing_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/templates/products/publishing_detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/templates/products/publishing_form.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/templates/products/publishing_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/templates/products/publishing_list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/templates/products/series_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/templates/products/series_detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/templates/products/series_form.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/templates/products/series_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/templates/products/series_list.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,7 +17,7 @@
         <entry file="file://$PROJECT_DIR$/mysite/mysite/urls.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="261">
-              <caret line="36" column="67" lean-forward="true" selection-start-line="36" selection-start-column="67" selection-end-line="36" selection-end-column="67" />
+              <caret line="36" column="67" selection-start-line="36" selection-start-column="67" selection-end-line="36" selection-end-column="67" />
               <folding>
                 <element signature="e#630#662#0" expanded="true" />
               </folding>
@@ -44,7 +25,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mysite/products/views.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1295">
@@ -54,6 +35,15 @@
                 <element signature="e#186#681#0" />
                 <element signature="e#714#1080#0" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mysite/son dlya slabakov">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="68" selection-start-column="68" selection-end-column="68" />
             </state>
           </provider>
         </entry>
@@ -77,7 +67,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/mysite/main/migrations/urls.py" />
         <option value="$PROJECT_DIR$/mysite/contacts/templates/contacts/allContacts.html" />
         <option value="$PROJECT_DIR$/mysite/main/templates/main/homePage.html" />
         <option value="$PROJECT_DIR$/mysite/contacts/views.py" />
@@ -128,6 +117,7 @@
         <option value="$PROJECT_DIR$/mysite/templates/products/publishing_list.html" />
         <option value="$PROJECT_DIR$/mysite/templates/products/products_list.html" />
         <option value="$PROJECT_DIR$/mysite/templates/products/series_list.html" />
+        <option value="$PROJECT_DIR$/mysite/son dlya slabakov" />
       </list>
     </option>
   </component>
@@ -155,25 +145,6 @@
               <item name="online_bookstore" type="b2602c69:ProjectViewProjectNode" />
               <item name="online_bookstore" type="462c0819:PsiDirectoryNode" />
               <item name="mysite" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="online_bookstore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="online_bookstore" type="462c0819:PsiDirectoryNode" />
-              <item name="mysite" type="462c0819:PsiDirectoryNode" />
-              <item name="products" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="online_bookstore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="online_bookstore" type="462c0819:PsiDirectoryNode" />
-              <item name="mysite" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="online_bookstore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="online_bookstore" type="462c0819:PsiDirectoryNode" />
-              <item name="mysite" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="products" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -233,7 +204,7 @@
       <workItem from="1556146327819" duration="398000" />
       <workItem from="1556204053506" duration="23255000" />
       <workItem from="1556277887121" duration="4181000" />
-      <workItem from="1556298845986" duration="33961000" />
+      <workItem from="1556298845986" duration="34498000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1554397748604</created>
@@ -298,11 +269,18 @@
       <option name="project" value="LOCAL" />
       <updated>1556330368291</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="update">
+      <created>1556340737223</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1556340737223</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63207000" />
+    <option name="totallyTimeSpent" value="63744000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
@@ -318,11 +296,11 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49836066" weight="0.32937366" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.4980631" weight="0.32937366" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50054646" side_tool="true" weight="0.30237582" />
       <window_info anchor="bottom" id="Python Console" order="9" sideWeight="0.4997233" weight="0.32937366" />
       <window_info anchor="bottom" id="SVN Repositories" order="10" weight="0.32937366" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.5002767" side_tool="true" visible="true" weight="0.32937366" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.5019369" side_tool="true" visible="true" weight="0.32937366" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="bottom" id="Docker" order="13" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -345,10 +323,11 @@
     <MESSAGE value="upgrade" />
     <MESSAGE value="search" />
     <MESSAGE value="create" />
-    <option name="LAST_COMMIT_MESSAGE" value="create" />
+    <MESSAGE value="update" />
+    <MESSAGE value="update son dlya slabakov" />
+    <option name="LAST_COMMIT_MESSAGE" value="update son dlya slabakov" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/mysite/series/models.py" />
     <entry file="file://$PROJECT_DIR$/mysite/publishing/models.py" />
     <entry file="file://$PROJECT_DIR$/mysite/publishing/admin.py" />
     <entry file="file://$PROJECT_DIR$/mysite/genre/models.py" />
@@ -597,7 +576,7 @@
     <entry file="file://$PROJECT_DIR$/mysite/mysite/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="261">
-          <caret line="36" column="67" lean-forward="true" selection-start-line="36" selection-start-column="67" selection-end-line="36" selection-end-column="67" />
+          <caret line="36" column="67" selection-start-line="36" selection-start-column="67" selection-end-line="36" selection-end-column="67" />
           <folding>
             <element signature="e#630#662#0" expanded="true" />
           </folding>
@@ -634,6 +613,13 @@
             <element signature="e#186#681#0" />
             <element signature="e#714#1080#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysite/son dlya slabakov">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="68" selection-start-column="68" selection-end-column="68" />
         </state>
       </provider>
     </entry>
