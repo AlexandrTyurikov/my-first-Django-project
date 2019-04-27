@@ -2,14 +2,14 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Authors</title>
+    <title>Авторы</title>
 </head>
 {% extends 'main/wrapper.html' %}
 
 {% block content %}
 <form action="" method="get">
         Введите ключевое слово:{{ form.search }}<br>
-    Автор жив{{ form.active }}<br>
+    Автор жив{{ form.active }}
       <button type="submit">Найти</button>
 </form>
     <table border="1">
@@ -28,11 +28,12 @@
             <tr>
                 <td>{{ object.pk }}</td>
                 <td>
-                    <a href="{% url 'author_dv' object.pk %}" target="_blank"> {{ object.name }} </a>
+                    <a href="{% url 'author_dv' object.pk %}" > {{ object.name }} </a>
                 </td>
             </tr>
             {% endfor %}
         </tbody>
     </table>
+<button><a href="{% url 'author_cv' %}" >Добавить</a></button>
 {% endblock %}
 </html>

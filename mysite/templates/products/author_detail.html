@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Author</title>
+    <title>Автор</title>
 </head>
 {% extends 'main/wrapper.html' %}
 
@@ -10,6 +10,7 @@
 Автор -
     {{ object.name }}<br>
 Автобиография:
-    {{ object.description }}
+    {{ object.description }}<br>
+    <button><a href="{% url 'author_uv' object.pk %}">Изменить</a></button>
 {% endblock %}
 </html>

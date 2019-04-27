@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Справочники</title>
 </head>
 {% extends 'main/wrapper.html' %}
 
@@ -11,19 +11,19 @@
         <caption>Справочники</caption>
             <tr>
                 <th>
-                    <a href="{% url 'books_lv' %}" target="_blank"> Книги </a>
+                    <a href="{% url 'book_lv' %}" > Книги </a>
                 </th>
                 <th>
-                    <a href="{% url 'authors_lv' %}" target="_blank"> Авторы </a>
+                    <a href="{% url 'author_lv' %}" > Авторы </a>
                 </th>
                 <th>
-                    <a href="{% url 'series_lv' %}" target="_blank"> Серии </a>
+                    <a href="{% url 'series_lv' %}" > Серии </a>
                 </th>
                 <th>
-                    <a href="{% url 'genres_lv' %}" target="_blank"> Жанры </a>
+                    <a href="{% url 'genre_lv' %}" > Жанры </a>
                 </th>
                 <th>
-                    <a href="{% url 'publishing_lv' %}" target="_blank"> Издательства </a>
+                    <a href="{% url 'publishing_lv' %}" > Издательства </a>
                 </th>
             </tr>
     </table>

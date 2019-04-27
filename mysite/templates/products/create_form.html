@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Добавить</title>
 </head>
 {% extends 'main/wrapper.html' %}
 
@@ -12,6 +12,7 @@
     {% csrf_token %}
     {{ form.as_p }}
     <input type="submit" value="Добавить" name="list">
+    <input type="submit" value="Добавить и остаться" name="detail" >
 </form>
 {% endblock %}
 </html>

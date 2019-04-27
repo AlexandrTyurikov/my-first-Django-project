@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Books</title>
+    <title>Книги</title>
 </head>
 {% extends 'main/wrapper.html' %}
 
@@ -42,7 +42,7 @@
             <tr>
                 <td>{{ object.pk }}</td>
                 <td>
-                    <a href="{% url 'book_dv' object.pk %}" target="_blank"> {{ object.name }} </a>
+                    <a href="{% url 'book_dv' object.pk %}" > {{ object.name }} </a>
                 </td>
 
                 <td><img src = '{{ object.image }}' height="120" width="80"/></td>
@@ -76,5 +76,6 @@
             {% endfor %}
         </tbody>
     </table>
+<button><a href="{% url 'book_cv' %}" >Добавить</a></button>
 {% endblock %}
 </html>

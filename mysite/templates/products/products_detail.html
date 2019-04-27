@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Book</title>
+    <title>Книга</title>
 </head>
 {% extends 'main/wrapper.html' %}
 
@@ -31,5 +31,6 @@
     {{ object.rating }}<br>
     {{ object.creation_date }}<br>
     {{ object.update_date }}<br>
+<button><a href="{% url 'book_uv' object.pk %}">Изменить</a></button>
 {% endblock %}
 </html>

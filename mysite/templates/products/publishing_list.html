@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Publishing</title>
+    <title>Издательства</title>
 </head>
 {% extends 'main/wrapper.html' %}
 
@@ -32,7 +32,7 @@
                     {{ object.pk }}
                 </td>
                 <td>
-                    <a href="{% url 'publishing_dv' object.pk %}" target="_blank"> {{ object.name }} </a>
+                    <a href="{% url 'publishing_dv' object.pk %}" > {{ object.name }} </a>
                 </td>
                 <td>
                     {{ object.description }}
@@ -41,5 +41,6 @@
             {% endfor %}
         </tbody>
     </table>
+<button><a href="{% url 'publishing_cv' %}" >Добавить</a></button>
 {% endblock %}
 </html>

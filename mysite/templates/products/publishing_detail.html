@@ -2,12 +2,13 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Publishing</title>
+    <title>Издательство</title>
 </head>
 {% extends 'main/wrapper.html' %}
 
 {% block content %}
 Издательство:
-    {{ object.name }} - г.{{ object.description }}
+    {{ object.name }} - г.{{ object.description }}<br>
+<button><a href="{% url 'publishing_uv' object.pk %}">Изменить</a></button>
 {% endblock %}
 </html>

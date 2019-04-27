@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Series</title>
+    <title>Серии</title>
 </head>
 {% extends 'main/wrapper.html' %}
 
@@ -29,11 +29,12 @@
                     {{ object.pk }}
                 </td>
                 <td>
-                    <a href="{% url 'series_dv' object.pk %}" target="_blank"> {{ object.name }} </a>
+                    <a href="{% url 'series_dv' object.pk %}" > {{ object.name }} </a>
                 </td>
             </tr>
             {% endfor %}
         </tbody>
     </table>
+<button><a href="{% url 'series_cv' %}" >Добавить</a></button>
 {% endblock %}
 </html>

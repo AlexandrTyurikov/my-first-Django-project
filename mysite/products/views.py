@@ -83,23 +83,18 @@ class AllHandbookView(TemplateView):
 class AuthorCreate(CreateView):
     model = Author
     form_class = AuthorCreateUpdateForm
+    template_name = 'products/create_form.html'
 
     def get_success_url(self):
         if self.request.POST.get('detail'):
             return reverse_lazy('author_dv', kwargs={'pk': self.object.pk})
-        elif self.request.POST.get('list'):
-            return reverse_lazy('authors_lv')
-        return reverse_lazy('author_cv')
-
-    # def get_success_url(self):
-    #     if self.request.POST.get('detail'):
-    #         return reverse_lazy('author_dv', kwargs={'pk': self.object.pk})
-    #     return reverse_lazy('authors_lv')
+        return reverse_lazy('author_lv')
 
 
 class SeriesCreate(CreateView):
     model = Series
     form_class = SeriesCreateUpdateForm
+    template_name = 'products/create_form.html'
 
     def get_success_url(self):
         if self.request.POST.get('detail'):
@@ -110,16 +105,18 @@ class SeriesCreate(CreateView):
 class GenreCreate(CreateView):
     model = Genre
     form_class = GenreCreateUpdateForm
+    template_name = 'products/create_form.html'
 
     def get_success_url(self):
         if self.request.POST.get('detail'):
             return reverse_lazy('genre_dv', kwargs={'pk': self.object.pk})
-        return reverse_lazy('genres_lv')
+        return reverse_lazy('genre_lv')
 
 
 class PublishingCreate(CreateView):
     model = Publishing
     form_class = PublishingCreateUpdateForm
+    template_name = 'products/create_form.html'
 
     def get_success_url(self):
         if self.request.POST.get('detail'):
@@ -130,40 +127,64 @@ class PublishingCreate(CreateView):
 class ProductsCreate(CreateView):
     model = Products
     form_class = ProductsCreateUpdateForm
+    template_name = 'products/create_form.html'
 
     def get_success_url(self):
         if self.request.POST.get('detail'):
             return reverse_lazy('book_dv', kwargs={'pk': self.object.pk})
-        return reverse_lazy('books_lv')
+        return reverse_lazy('book_lv')
 
 
 class AuthorUpdate(UpdateView):
     model = Author
     form_class = AuthorCreateUpdateForm
+    template_name = 'products/update_form.html'
 
-    # def get_success_url(self):
-    #     if self.request.POST.get('detail'):
-    #         return reverse_lazy('author_dv', kwargs={'pk': self.object.pk})
-    #     elif self.request.POST.get('list'):
-    #         return reverse_lazy('authors_lv')
-    #     return reverse_lazy('author_uv')
+    def get_success_url(self):
+        if self.request.POST.get('detail'):
+            return reverse_lazy('author_dv', kwargs={'pk': self.object.pk})
+        return reverse_lazy('author_lv')
 
 
 class SeriesUpdate(UpdateView):
     model = Series
     form_class = SeriesCreateUpdateForm
+    template_name = 'products/update_form.html'
+
+    def get_success_url(self):
+        if self.request.POST.get('detail'):
+            return reverse_lazy('series_dv', kwargs={'pk': self.object.pk})
+        return reverse_lazy('series_lv')
 
 
 class GenreUpdate(UpdateView):
     model = Genre
     form_class = GenreCreateUpdateForm
+    template_name = 'products/update_form.html'
+
+    def get_success_url(self):
+        if self.request.POST.get('detail'):
+            return reverse_lazy('genre_dv', kwargs={'pk': self.object.pk})
+        return reverse_lazy('genre_lv')
 
 
 class PublishingUpdate(UpdateView):
     model = Publishing
     form_class = PublishingCreateUpdateForm
+    template_name = 'products/update_form.html'
+
+    def get_success_url(self):
+        if self.request.POST.get('detail'):
+            return reverse_lazy('publishing_dv', kwargs={'pk': self.object.pk})
+        return reverse_lazy('publishing_lv')
 
 
 class ProductsUpdate(UpdateView):
     model = Products
     form_class = ProductsCreateUpdateForm
+    template_name = 'products/update_form.html'
+
+    def get_success_url(self):
+        if self.request.POST.get('detail'):
+            return reverse_lazy('book_dv', kwargs={'pk': self.object.pk})
+        return reverse_lazy('book_lv')

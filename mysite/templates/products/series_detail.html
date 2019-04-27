@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Series</title>
+    <title>Серия</title>
 </head>
 {% extends 'main/wrapper.html' %}
 
@@ -10,6 +10,7 @@
 Серия -
     {{ object.name }}<br>
 Описание:
-    {{ object.description }}
+    {{ object.description }}<br>
+<button><a href="{% url 'series_uv' object.pk %}">Изменить</a></button>
 {% endblock %}
 </html>

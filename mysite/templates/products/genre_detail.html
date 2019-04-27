@@ -2,12 +2,13 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Genre</title>
+    <title>Жанр</title>
 </head>
 {% extends 'main/wrapper.html' %}
 
 {% block content %}
 Жанр - {{ object.name }}<br>
-Описание: {{ object.description }}
+Описание: {{ object.description }}<br>
+<button><a href="{% url 'genre_uv' object.pk %}">Изменить</a></button>
 {% endblock %}
 </html>
