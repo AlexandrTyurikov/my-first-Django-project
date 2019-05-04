@@ -1,10 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Удалить</title>
-</head>
-{% extends 'main/wrapper.html' %}
+{% extends 'wrapper.html' %}
+
+{% block title %}Удалить{% endblock %}
 
 {% block content %}
 
@@ -16,4 +12,3 @@
     <button type="button" onclick="history.back()">Нет, я передумал</button>
 </form>
 {% endblock %}
-</html>

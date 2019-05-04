@@ -1,16 +1,13 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Книга</title>
-</head>
-{% extends 'main/wrapper.html' %}
+{% extends 'wrapper.html' %}
+{% load NoneTrueFalse %}
+
+{% block title %}Книга{% endblock %}
 
 {% block content %}
 Книга:<br>
     {{ object.name }} <br>
     <img src = '{{ object.image.url }}' height="120" width="80"/><br>
-    {{ object.description }}
+    {{ object.description| boolparser }}<br>
     {{ object.price }}<br>
 {% for object in object.author.all %}
     {{ object }}<br>
@@ -18,7 +15,7 @@
 {% for object in object.genre.all %}
     {{ object }}<br>
 {% endfor %}
-    {{ object.series }}<br>
+    {{ object.series | boolparser }}<br>
     {{ object.publishing }}<br>
     {{ object.year }}<br>
     {{ object.pages }}<br>
@@ -28,9 +25,8 @@
     {{ object.weight }}<br>
     {{ object.age_limit }}<br>
     {{ object.sum }}<br>
-    {{ object.available }}<br>
+    {{ object.active | boolparser }}<br>
     {{ object.rating }}<br>
     {{ object.creation_date }}<br>
     {{ object.update_date }}
 {% endblock %}
-</html>

@@ -1,10 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Справочники</title>
-</head>
-{% extends 'main/wrapper.html' %}
+{% extends 'wrapper.html' %}
+
+{% block title %}Справочники{% endblock %}
 
 {% block content %}
 <caption>Справочники</caption><br>
@@ -15,4 +11,3 @@
     <a href="{% url 'publishing_lv' %}"><button type="button" class="btn btn-secondary">Издательства</button></a>
 </div>
 {% endblock %}
-</html>

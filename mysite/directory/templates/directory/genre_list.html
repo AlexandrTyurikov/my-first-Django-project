@@ -1,10 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Издательства</title>
-</head>
-{% extends 'main/wrapper.html' %}
+{% extends 'wrapper.html' %}
+
+{% block title %}Жанры{% endblock %}
 
 {% block content %}
 <form action="" method="get" class="form-inline">
@@ -13,12 +9,11 @@
            name="sss">
     <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Поиск</button>
 </form>
-   <table border="1">
+    <table border="1">
         <thead>
             <tr>
                 <th>ID</th>
-                <th>Издательство</th>
-                <th>Город</th>
+                <th>Жанры</th>
                 <th>Действия</th>
             </tr>
         </thead>
@@ -27,16 +22,14 @@
             <tr>
                 <td>{{ object.pk }}</td>
                 <td>{{ object.name }}</td>
-                <td>{{ object.description }}</td>
                 <td>
-                    <a href="{% url 'publishing_dv' object.pk %}" ><i class="far fa-eye"></i></a>&nbsp;
-                    <a href="{% url 'publishing_uv' object.pk %}" ><i class="fas fa-pencil-alt"></i></a>&nbsp;
-                    <a href="{% url 'publishing_del_v' object.pk %}" ><i class="fas fa-trash-alt"></i></a>
+                    <a href="{% url 'genre_dv' object.pk %}" ><i class="far fa-eye"></i></a>&nbsp;
+                    <a href="{% url 'genre_uv' object.pk %}" ><i class="fas fa-pencil-alt"></i></a>&nbsp;
+                    <a href="{% url 'genre_del_v' object.pk %}" ><i class="fas fa-trash-alt"></i></a>
                 </td>
             </tr>
             {% endfor %}
         </tbody>
     </table>
-<a href="{% url 'publishing_cv' %}" ><button>Добавить</button></a>
+<a href="{% url 'genre_cv' %}" ><button>Добавить</button></a>
 {% endblock %}
-</html>

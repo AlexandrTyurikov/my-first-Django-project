@@ -4,6 +4,7 @@ from .models import Author, Series, Genre, Publishing
 from .forms import AuthorCrUpForm, SeriesCrUpForm, GenreCrUpForm, PublishingCrUpForm
 from django.db.models import Q
 
+
 class AuthorDetail(DetailView):
     model = Author
 

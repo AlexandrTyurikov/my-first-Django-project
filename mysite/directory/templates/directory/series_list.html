@@ -1,10 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Серии</title>
-</head>
-{% extends 'main/wrapper.html' %}
+{% extends 'wrapper.html' %}
+
+{% block title %}Серии{% endblock %}
 
 {% block content %}
 <form action="" method="get" class="form-inline">
@@ -37,4 +33,3 @@
     </table>
 <a href="{% url 'series_cv' %}" ><button>Добавить</button></a>
 {% endblock %}
-</html>

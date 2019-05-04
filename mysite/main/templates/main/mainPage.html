@@ -1,10 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Книга</title>
-</head>
-{% extends 'main/wrapper.html' %}
+{% extends 'wrapper.html' %}
+
+{% block title %}Главнвя{% endblock %}
 
 {% block content %}
     <h2>Главная страница</h2><br>
@@ -12,14 +8,8 @@
     {{ form }}
     <input class="form-control mr-sm-2" type="search" placeholder="Введите ключевое слово" aria-label="Search"
            name="nnn">
-    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Поиск по названии книги</button>
+    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Поиск</button>
 </form>
-<!--<form action="" method="get" class="form-inline">-->
-<!--    {{ form }}-->
-<!--    <input class="form-control mr-sm-2" type="search" placeholder="Введите ключевое слово" aria-label="Search"-->
-<!--           name="aaa">-->
-<!--    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Поиск по автору</button>-->
-<!--</form>-->
 <div class="card-deck">
 {% for object in object_list %}
 
@@ -58,7 +48,3 @@
 {% endfor %}
     </div>
 {% endblock %}
-</html>
-
-
-

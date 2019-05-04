@@ -9,11 +9,8 @@ class Book(models.Model):
     price = models.DecimalField('Цена', max_digits=10, decimal_places=2)
     author = models.ManyToManyField('directory.Author', related_name='directory', verbose_name='Автор')
     genre = models.ManyToManyField('directory.Genre', related_name='directory', verbose_name='Жанр')
-    series = models.ForeignKey(
-        'directory.Series',
-        null=True, blank=True,
-        verbose_name='Серия',
-        on_delete=models.PROTECT)
+    series = models.ForeignKey('directory.Series', null=True, blank=True, verbose_name='Серия',
+                               on_delete=models.PROTECT)
     publishing = models.ForeignKey('directory.Publishing', verbose_name='Издательство', on_delete=models.PROTECT)
     year = models.IntegerField('Год издания')
     pages = models.IntegerField('Страниц')
