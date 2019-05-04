@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Удалить</title>
+</head>
+{% extends 'main/wrapper.html' %}
+
+{% block content %}
+
+<form action="" method="POST">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <h5>Вы действительно хотите удалить?</h5>
+    <button type="submit">Да, удалить</button>
+    <button type="button" onclick="history.back()">Нет, я передумал</button>
+</form>
+{% endblock %}
+</html>

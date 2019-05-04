@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Справочники</title>
+</head>
+{% extends 'main/wrapper.html' %}
+
+{% block content %}
+<caption>Справочники</caption><br>
+<div class="btn-group btn-group-lg" role="group" aria-label="Basic example">
+    <a href="{% url 'author_lv' %}"><button type="button" class="btn btn-secondary">Авторы</button></a>
+    <a href="{% url 'series_lv' %}"><button type="button" class="btn btn-secondary">Серии</button></a>
+    <a href="{% url 'genre_lv' %}"><button type="button" class="btn btn-secondary">Жанры</button></a>
+    <a href="{% url 'publishing_lv' %}"><button type="button" class="btn btn-secondary">Издательства</button></a>
+</div>
+{% endblock %}
+</html>

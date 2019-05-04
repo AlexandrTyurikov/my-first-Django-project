@@ -1,6 +1,9 @@
 from django.urls import path
-from . import views
+from .views import BookCard
+
 
 urlpatterns = [
-    path('', views.main, name='main'),
+    path('', BookCard.as_view(), name='main')
 ]
+
+

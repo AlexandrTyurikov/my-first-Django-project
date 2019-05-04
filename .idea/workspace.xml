@@ -1,9 +1,270 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eada2f2a-e9e4-4a5e-8048-54691b58f48f" name="Default Changelist" comment="update son dlya slabakov">
-      <change afterPath="$PROJECT_DIR$/mysite/son dlya slabakov" afterDir="false" />
+    <list default="true" id="eada2f2a-e9e4-4a5e-8048-54691b58f48f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/mysite/book/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/book/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/book/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/book/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/book/migrations/0002_auto_20190503_0046.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/book/migrations/0003_book_description.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/book/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/book/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/book/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/directory/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/directory/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/directory/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/directory/migrations/0002_auto_20190503_0046.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/directory/migrations/0003_auto_20190504_1006.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/directory/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/directory/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/directory/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/images/background/32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/images/background/33.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/images/background/34.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/images/background/35.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/images/images/v4JH3dP2_400x400.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/images/logo/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/images/logo/logo2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/images/logo/logo3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/templates/book/book_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/templates/directory/all_directory_view.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/templates/directory/author_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/templates/directory/genre_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/templates/directory/publishing_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/templates/directory/series_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/templates/form/delete_form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/templates/main/mainPage.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/contacts/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/book/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/contacts/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/contacts/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/contacts/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/book/migrations/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/contacts/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/contacts/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/book/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/contacts/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/contacts/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/images/images/yvBCHXu4hLQ_BC89nqH.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/images/images/Снимок_экрана_от_2019-04-08_00-29-23.png" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/images/images/Снимок_экрана_от_2019-04-08_00-29-23.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/images/images/Снимок_экрана_от_2019-04-08_00-29-23_v4KjdVN.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/images/yvBCHXu4hLQ.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/images/Снимок_экрана_от_2019-04-08_00-29-23.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/main/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/main/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/main/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/main/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/mysite/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/mysite/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/mysite/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/mysite/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/products/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/directory/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/products/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/products/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/directory/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/products/forms.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/products/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/products/migrations/0002_auto_20190424_1524.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/products/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/directory/migrations/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/products/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/products/shell.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/products/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/directory/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/products/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/son dlya slabakov" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/templates/contacts/allContacts.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/templates/main/homePage.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/templates/main/wrapper.html" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/templates/main/wrapper.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/templates/products/all_handbook_view.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/templates/products/author_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/templates/directory/author_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/templates/products/author_list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/templates/products/create_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/templates/form/create_form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/templates/products/genre_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/templates/directory/genre_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/templates/products/genre_list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/templates/products/products_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/templates/book/book_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/templates/products/products_list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/templates/products/publishing_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/templates/directory/publishing_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/templates/products/publishing_list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/templates/products/series_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/templates/directory/series_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/templates/products/series_list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/templates/products/update_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/templates/form/update_form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/PIL/DcxImagePlugin.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/PIL/DcxImagePlugin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/PIL/FpxImagePlugin.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/PIL/FpxImagePlugin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/PIL/ImImagePlugin.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/PIL/ImImagePlugin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/PIL/ImageFont.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/PIL/ImageFont.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/PIL/JpegImagePlugin.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/PIL/JpegImagePlugin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/PIL/McIdasImagePlugin.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/PIL/McIdasImagePlugin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/PIL/MicImagePlugin.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/PIL/MicImagePlugin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/PIL/TiffImagePlugin.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/PIL/TiffImagePlugin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/PIL/_util.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/PIL/_util.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/apps/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/apps/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/global_settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/global_settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/af/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/af/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/ar/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/ar/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/ast/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/ast/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/az/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/az/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/be/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/be/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/bg/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/bg/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/bn/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/bn/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/br/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/br/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/bs/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/bs/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/ca/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/ca/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/cs/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/cs/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/cy/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/cy/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/da/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/da/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/de/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/de/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/dsb/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/dsb/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/el/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/el/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/en/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/en/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/en_AU/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/en_AU/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/en_GB/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/en_GB/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/eo/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/eo/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/es/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/es/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/es_AR/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/es_AR/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/es_CO/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/es_CO/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/es_MX/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/es_MX/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/es_VE/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/es_VE/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/et/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/et/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/eu/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/eu/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/fa/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/fa/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/fi/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/fi/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/fr/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/fr/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/fy/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/fy/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/ga/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/ga/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/gd/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/gd/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/gl/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/gl/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/he/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/he/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/hi/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/hi/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/hr/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/hr/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/hsb/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/hsb/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/hu/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/hu/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/hy/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/hy/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/ia/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/ia/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/id/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/id/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/io/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/io/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/is/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/is/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/it/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/it/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/ja/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/ja/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/ka/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/ka/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/kab/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/kab/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/kk/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/kk/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/km/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/km/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/kn/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/kn/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/ko/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/ko/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/lb/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/lb/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/lt/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/lt/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/lv/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/lv/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/mk/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/mk/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/ml/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/ml/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/mn/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/mn/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/mr/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/mr/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/my/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/my/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/nb/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/nb/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/ne/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/ne/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/nl/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/nl/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/nn/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/nn/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/os/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/os/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/pa/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/pa/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/pl/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/pl/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/pt/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/pt/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/pt_BR/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/pt_BR/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/ro/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/ro/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/ru/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/ru/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/sk/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/sk/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/sl/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/sl/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/sq/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/sq/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/sr/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/sr/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/sr_Latn/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/sr_Latn/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/sv/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/sv/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/sw/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/sw/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/ta/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/ta/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/te/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/te/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/th/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/th/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/tr/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/tr/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/tt/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/tt/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/udm/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/udm/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/uk/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/uk/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/ur/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/ur/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/vi/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/vi/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/zh_Hans/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/zh_Hans/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/zh_Hant/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/conf/locale/zh_Hant/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/contrib/admin/static/admin/js/vendor/select2/select2.full.js" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/contrib/admin/static/admin/js/vendor/select2/select2.full.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/contrib/gis/geoip2/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/contrib/gis/geoip2/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/contrib/gis/geoip2/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/contrib/gis/geoip2/base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/contrib/gis/measure.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/contrib/gis/measure.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/contrib/sessions/backends/file.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/contrib/sessions/backends/file.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/contrib/staticfiles/finders.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/contrib/staticfiles/finders.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/contrib/staticfiles/handlers.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/contrib/staticfiles/handlers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/contrib/staticfiles/storage.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/contrib/staticfiles/storage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/contrib/staticfiles/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/contrib/staticfiles/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/core/files/storage.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/core/files/storage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/core/mail/backends/filebased.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/core/mail/backends/filebased.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/core/management/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/core/management/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/core/management/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/core/management/base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/core/management/commands/compilemessages.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/core/management/commands/compilemessages.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/core/management/commands/loaddata.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/core/management/commands/loaddata.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/core/management/commands/makemessages.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/core/management/commands/makemessages.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/core/management/commands/makemigrations.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/core/management/commands/makemigrations.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/core/management/commands/startapp.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/core/management/commands/startapp.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/core/management/commands/startproject.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/core/management/commands/startproject.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/core/management/commands/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/core/management/commands/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/core/management/templates.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/core/management/templates.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/db/migrations/loader.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/db/migrations/loader.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/forms/renderers.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/forms/renderers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/template/backends/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/template/backends/base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/template/loaders/filesystem.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/template/loaders/filesystem.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/test/runner.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/test/runner.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/test/testcases.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/test/testcases.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/utils/archive.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/utils/archive.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/utils/autoreload.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/utils/autoreload.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/utils/module_loading.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/utils/module_loading.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/views/static.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/views/static.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip/_vendor/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip/_vendor/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip/cmdoptions.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip/cmdoptions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip/commands/download.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip/commands/download.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip/commands/install.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip/commands/install.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip/commands/show.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip/commands/show.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip/commands/wheel.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip/commands/wheel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip/download.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip/download.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip/exceptions.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip/exceptions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip/index.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip/index.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip/locations.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip/locations.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip/req/req_install.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip/req/req_install.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip/req/req_set.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip/req/req_set.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip/req/req_uninstall.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip/req/req_uninstall.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip/utils/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip/utils/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip/utils/appdirs.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip/utils/appdirs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip/utils/build.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip/utils/build.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip/utils/filesystem.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip/utils/filesystem.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip/utils/outdated.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip/utils/outdated.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip/vcs/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip/vcs/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip/vcs/git.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip/vcs/git.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip/vcs/subversion.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip/vcs/subversion.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip/wheel.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip/wheel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pkg_resources/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pkg_resources/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pkg_resources/_vendor/appdirs.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pkg_resources/_vendor/appdirs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/setuptools/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/setuptools/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/setuptools/archive_util.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/setuptools/archive_util.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/setuptools/build_meta.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/setuptools/build_meta.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/setuptools/command/bdist_egg.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/setuptools/command/bdist_egg.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/setuptools/command/build_clib.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/setuptools/command/build_clib.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/setuptools/command/build_ext.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/setuptools/command/build_ext.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/setuptools/command/build_py.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/setuptools/command/build_py.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/setuptools/command/develop.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/setuptools/command/develop.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/setuptools/command/dist_info.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/setuptools/command/dist_info.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/setuptools/command/easy_install.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/setuptools/command/easy_install.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/setuptools/command/egg_info.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/setuptools/command/egg_info.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/setuptools/command/install_egg_info.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/setuptools/command/install_egg_info.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/setuptools/command/install_scripts.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/setuptools/command/install_scripts.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/setuptools/command/py36compat.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/setuptools/command/py36compat.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/setuptools/command/rotate.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/setuptools/command/rotate.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/setuptools/command/sdist.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/setuptools/command/sdist.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/setuptools/command/upload_docs.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/setuptools/command/upload_docs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/setuptools/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/setuptools/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/setuptools/dist.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/setuptools/dist.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/setuptools/glob.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/setuptools/glob.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/setuptools/msvc.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/setuptools/msvc.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/setuptools/package_index.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/setuptools/package_index.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/setuptools/py31compat.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/setuptools/py31compat.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/setuptools/py36compat.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/setuptools/py36compat.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/setuptools/sandbox.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/setuptools/sandbox.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/setuptools/site-patch.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/setuptools/site-patch.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/setuptools/wheel.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/setuptools/wheel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/setuptools/windows_support.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/setuptools/windows_support.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,36 +275,70 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mysite/mysite/urls.py">
+        <entry file="file://$PROJECT_DIR$/mysite/templates/main/mainPage.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="261">
-              <caret line="36" column="67" selection-start-line="36" selection-start-column="67" selection-end-line="36" selection-end-column="67" />
+            <state relative-caret-position="291">
+              <caret line="16" selection-start-line="16" selection-start-column="4" selection-end-line="21" selection-end-column="11" />
               <folding>
-                <element signature="e#630#662#0" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mysite/products/views.py">
+        <entry file="file://$PROJECT_DIR$/mysite/templates/book/book_detail.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1295">
-              <caret line="187" column="39" selection-start-line="187" selection-start-column="39" selection-end-line="187" selection-end-column="39" />
-              <folding>
-                <element signature="e#0#35#0" expanded="true" />
-                <element signature="e#186#681#0" />
-                <element signature="e#714#1080#0" />
-              </folding>
+            <state relative-caret-position="154">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/mysite/son dlya slabakov">
+        <entry file="file://$PROJECT_DIR$/mysite/main/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="68" selection-start-column="68" selection-end-column="68" />
+            <state relative-caret-position="374">
+              <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mysite/book/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="9" column="46" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mysite/book/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="506">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+              <folding>
+                <element signature="e#0#89#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mysite/directory/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="462">
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+              <folding>
+                <element signature="e#0#103#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -67,46 +362,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/mysite/contacts/templates/contacts/allContacts.html" />
-        <option value="$PROJECT_DIR$/mysite/main/templates/main/homePage.html" />
-        <option value="$PROJECT_DIR$/mysite/contacts/views.py" />
-        <option value="$PROJECT_DIR$/mysite/contacts/urls.py" />
-        <option value="$PROJECT_DIR$/mysite/main/urls.py" />
-        <option value="$PROJECT_DIR$/mysite/main/views.py" />
-        <option value="$PROJECT_DIR$/mysite/publishing/urls.py" />
-        <option value="$PROJECT_DIR$/mysite/publish/models.py" />
-        <option value="$PROJECT_DIR$/mysite/publish/admin.py" />
-        <option value="$PROJECT_DIR$/mysite/author/admin.py" />
-        <option value="$PROJECT_DIR$/mysite/genre/admin.py" />
-        <option value="$PROJECT_DIR$/mysite/series/admin.py" />
-        <option value="$PROJECT_DIR$/mysite/series/models.py" />
-        <option value="$PROJECT_DIR$/mysite/genre/models.py" />
-        <option value="$PROJECT_DIR$/mysite/publishing/models.py" />
-        <option value="$PROJECT_DIR$/mysite/publishing/admin.py" />
-        <option value="$PROJECT_DIR$/mysite/author/models.py" />
-        <option value="$PROJECT_DIR$/mysite/products/adding.py" />
-        <option value="$PROJECT_DIR$/mysite/main/templates/main/wrapper.html" />
-        <option value="$PROJECT_DIR$/mysite/products/templates/products/book_test.html" />
-        <option value="$PROJECT_DIR$/mysite/templates/products/book_test.html" />
-        <option value="$PROJECT_DIR$/mysite/products/templates/book_test.html" />
-        <option value="$PROJECT_DIR$/mysite/products/templates/author_detail.html" />
-        <option value="$PROJECT_DIR$/mysite/products/shell.py" />
-        <option value="$PROJECT_DIR$/mysite/templates/main/homePage.html" />
-        <option value="$PROJECT_DIR$/mysite/templates/contacts/allContacts.html" />
-        <option value="$PROJECT_DIR$/mysite/templates/main/wrapper.html" />
-        <option value="$PROJECT_DIR$/mysite/templates/products/all_list.html" />
-        <option value="$PROJECT_DIR$/mysite/templates/products/handbooks_list.html" />
-        <option value="$PROJECT_DIR$/mysite/mysite/settings.py" />
-        <option value="$PROJECT_DIR$/mysite/products/admin.py" />
-        <option value="$PROJECT_DIR$/mysite/products/models.py" />
-        <option value="$PROJECT_DIR$/mysite/templates/products/genre_form.html" />
-        <option value="$PROJECT_DIR$/mysite/products/forms.py" />
-        <option value="$PROJECT_DIR$/mysite/templates/products/author_form.html" />
-        <option value="$PROJECT_DIR$/mysite/mysite/urls.py" />
-        <option value="$PROJECT_DIR$/mysite/templates/products/all_handbook_view.html" />
-        <option value="$PROJECT_DIR$/mysite/templates/products/author_detail.html" />
-        <option value="$PROJECT_DIR$/mysite/templates/products/author_list.html" />
-        <option value="$PROJECT_DIR$/mysite/templates/products/update_form.html" />
         <option value="$PROJECT_DIR$/mysite/templates/products/create_form.html" />
         <option value="$PROJECT_DIR$/mysite/products/views.py" />
         <option value="$PROJECT_DIR$/mysite/templates/products/genre_detail.html" />
@@ -118,6 +373,46 @@
         <option value="$PROJECT_DIR$/mysite/templates/products/products_list.html" />
         <option value="$PROJECT_DIR$/mysite/templates/products/series_list.html" />
         <option value="$PROJECT_DIR$/mysite/son dlya slabakov" />
+        <option value="$PROJECT_DIR$/requirements.txt" />
+        <option value="$PROJECT_DIR$/mysite/directory/admin.py" />
+        <option value="$PROJECT_DIR$/mysite/book/admin.py" />
+        <option value="$PROJECT_DIR$/mysite/templates/directory/all_handbook_view.html" />
+        <option value="$PROJECT_DIR$/mysite/book/forms.py" />
+        <option value="$PROJECT_DIR$/mysite/mysite/settings.py" />
+        <option value="$PROJECT_DIR$/mysite/templates/directory/author_detail.html" />
+        <option value="$PROJECT_DIR$/mysite/templates/main/homePage.html" />
+        <option value="$PROJECT_DIR$/mysite/directory/forms.py" />
+        <option value="$PROJECT_DIR$/mysite/templates/directory/author_confirm_delete.html" />
+        <option value="$PROJECT_DIR$/mysite/templates/directory/genre_confirm_delete.html" />
+        <option value="$PROJECT_DIR$/mysite/templates/directory/publishing_confirm_delete.html" />
+        <option value="$PROJECT_DIR$/mysite/templates/directory/genre_detail.html" />
+        <option value="$PROJECT_DIR$/mysite/templates/directory/publishing_detail.html" />
+        <option value="$PROJECT_DIR$/mysite/templates/directory/series_detail.html" />
+        <option value="$PROJECT_DIR$/mysite/directory/models.py" />
+        <option value="$PROJECT_DIR$/mysite/directory/urls.py" />
+        <option value="$PROJECT_DIR$/mysite/templates/form/create_form.html" />
+        <option value="$PROJECT_DIR$/mysite/templates/form/update_form.html" />
+        <option value="$PROJECT_DIR$/mysite/templates/form/delete_form.html" />
+        <option value="$PROJECT_DIR$/mysite/templates/book/book_confirm_delete.html" />
+        <option value="$PROJECT_DIR$/mysite/templates/directory/author_list.html" />
+        <option value="$PROJECT_DIR$/mysite/templates/directory/genre_list.html" />
+        <option value="$PROJECT_DIR$/mysite/templates/directory/publishing_list.html" />
+        <option value="$PROJECT_DIR$/mysite/templates/directory/series_list.html" />
+        <option value="$PROJECT_DIR$/mysite/templates/directory/all_directory_view.html" />
+        <option value="$PROJECT_DIR$/mysite/templates/main/wrapper.html" />
+        <option value="$PROJECT_DIR$/mysite/templates/book/book_card.html" />
+        <option value="$PROJECT_DIR$/mysite/templates/form/book_card_form.html" />
+        <option value="$PROJECT_DIR$/mysite/templates/book/book_card_list.html" />
+        <option value="$PROJECT_DIR$/mysite/mysite/urls.py" />
+        <option value="$PROJECT_DIR$/mysite/book/urls.py" />
+        <option value="$PROJECT_DIR$/mysite/main/urls.py" />
+        <option value="$PROJECT_DIR$/mysite/templates/book/book_list.html" />
+        <option value="$PROJECT_DIR$/mysite/book/models.py" />
+        <option value="$PROJECT_DIR$/mysite/templates/book/book_detail.html" />
+        <option value="$PROJECT_DIR$/mysite/book/views.py" />
+        <option value="$PROJECT_DIR$/mysite/directory/views.py" />
+        <option value="$PROJECT_DIR$/mysite/templates/main/mainPage.html" />
+        <option value="$PROJECT_DIR$/mysite/main/views.py" />
       </list>
     </option>
   </component>
@@ -133,7 +428,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -150,13 +444,14 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/mysite/templates/products" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/mysite/images/background" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -164,18 +459,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/mysite/templates/products" />
-      <recent name="$PROJECT_DIR$/mysite/publishing" />
-      <recent name="$PROJECT_DIR$/mysite/templates" />
-      <recent name="$PROJECT_DIR$/mysite/main" />
-      <recent name="$PROJECT_DIR$/mysite" />
+      <recent name="$PROJECT_DIR$/mysite/images/background" />
+      <recent name="$PROJECT_DIR$/mysite/images/logo" />
+      <recent name="$PROJECT_DIR$/mysite/images" />
+      <recent name="$PROJECT_DIR$/mysite/templates/directory" />
+      <recent name="$PROJECT_DIR$/mysite/templates/book" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/mysite/templates/book" />
+      <recent name="$PROJECT_DIR$/mysite/templates/form" />
       <recent name="$PROJECT_DIR$/mysite/templates" />
       <recent name="$PROJECT_DIR$/mysite/templates/products" />
       <recent name="$PROJECT_DIR$/mysite/products/templates" />
-      <recent name="$PROJECT_DIR$/mysite/image" />
-      <recent name="$PROJECT_DIR$/mysite/main" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -204,7 +499,15 @@
       <workItem from="1556146327819" duration="398000" />
       <workItem from="1556204053506" duration="23255000" />
       <workItem from="1556277887121" duration="4181000" />
-      <workItem from="1556298845986" duration="34498000" />
+      <workItem from="1556298845986" duration="34598000" />
+      <workItem from="1556474028148" duration="4456000" />
+      <workItem from="1556566983486" duration="13821000" />
+      <workItem from="1556640835174" duration="6371000" />
+      <workItem from="1556657595834" duration="15933000" />
+      <workItem from="1556704865219" duration="1547000" />
+      <workItem from="1556708091086" duration="18456000" />
+      <workItem from="1556814430608" duration="20019000" />
+      <workItem from="1556890604658" duration="58534000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1554397748604</created>
@@ -276,21 +579,27 @@
       <option name="project" value="LOCAL" />
       <updated>1556340737223</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="update son dlya slabakov">
+      <created>1556341252346</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1556341252346</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63744000" />
+    <option name="totallyTimeSpent" value="202981000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18539014" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20199226" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49836066" weight="0.32937366" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49584946" weight="0.32937366" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -300,7 +609,7 @@
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50054646" side_tool="true" weight="0.30237582" />
       <window_info anchor="bottom" id="Python Console" order="9" sideWeight="0.4997233" weight="0.32937366" />
       <window_info anchor="bottom" id="SVN Repositories" order="10" weight="0.32937366" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.5019369" side_tool="true" visible="true" weight="0.32937366" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.5041505" side_tool="true" visible="true" weight="0.32937366" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="bottom" id="Docker" order="13" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -309,6 +618,30 @@
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="4" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20199226" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4964029" weight="0.32937366" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.4980631" weight="0.32937366" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50054646" side_tool="true" weight="0.30237582" />
+      <window_info anchor="bottom" id="Python Console" order="9" sideWeight="0.4997233" weight="0.32937366" />
+      <window_info anchor="bottom" id="SVN Repositories" order="10" weight="0.32937366" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.50359714" side_tool="true" visible="true" weight="0.2775378" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Docker" order="13" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="SciView" order="4" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -328,83 +661,41 @@
     <option name="LAST_COMMIT_MESSAGE" value="update son dlya slabakov" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/mysite/publishing/models.py" />
-    <entry file="file://$PROJECT_DIR$/mysite/publishing/admin.py" />
-    <entry file="file://$PROJECT_DIR$/mysite/genre/models.py" />
-    <entry file="file://$PROJECT_DIR$/mysite/author/models.py" />
-    <entry file="file://$PROJECT_DIR$/mysite/image/v4JH3dP2_400x400.jpg" />
-    <entry file="file://$PROJECT_DIR$/mysite/v4JH3dP2_400x400_0bZjAKi.jpg" />
-    <entry file="file://$PROJECT_DIR$/mysite/image/Снимок_экрана_от_2019-04-08_00-29-23.png" />
-    <entry file="file://$PROJECT_DIR$/mysite/DSC_1334.JPG" />
+    <entry file="file://$PROJECT_DIR$/mysite/templates/products/genre_form.html" />
+    <entry file="file://$PROJECT_DIR$/mysite/son dlya slabakov" />
+    <entry file="file://$PROJECT_DIR$/mysite/contacts/views.py" />
+    <entry file="file://$PROJECT_DIR$/mysite/contacts/urls.py" />
+    <entry file="file://$PROJECT_DIR$/mysite/contacts/tests.py" />
+    <entry file="file://$PROJECT_DIR$/mysite/contacts/models.py" />
+    <entry file="file://$PROJECT_DIR$/mysite/contacts/apps.py" />
+    <entry file="file://$PROJECT_DIR$/mysite/contacts/admin.py" />
     <entry file="file://$PROJECT_DIR$/requirements.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
+        <state relative-caret-position="110">
           <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mysite/images/yvBCHXu4hLQ.jpg">
-      <provider selected="true" editor-type-id="images" />
+    <entry file="file://$PROJECT_DIR$/mysite/directory/tests.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/mysite/images/Снимок_экрана_от_2019-04-08_00-29-23.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mysite/contacts/views.py">
+    <entry file="file://$PROJECT_DIR$/mysite/book/admin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="4" column="55" lean-forward="true" selection-start-line="4" selection-start-column="55" selection-end-line="4" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mysite/products/templates/book_test.html" />
-    <entry file="file://$PROJECT_DIR$/mysite/templates/contacts/allContacts.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mysite/templates/main/homePage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mysite/templates/main/wrapper.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
+        <state relative-caret-position="352">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
           <folding>
-            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#0#32#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mysite/templates/products/handbooks_list.html" />
-    <entry file="file://$PROJECT_DIR$/mysite/products/tests.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mysite/products/apps.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mysite/main/models.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mysite/main/urls.py">
+    <entry file="file://$PROJECT_DIR$/mysite/directory/admin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="220">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
           <folding>
-            <element signature="e#0#28#0" expanded="true" />
+            <element signature="e#0#32#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mysite/main/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
@@ -418,208 +709,280 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mysite/manage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/mysite/templates/contacts/allContacts.html" />
+    <entry file="file://$PROJECT_DIR$/mysite/main/tests.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/mysite/main/admin.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/mysite/products/admin.py">
+    <entry file="file://$PROJECT_DIR$/mysite/templates/directory/genre_confirm_delete.html" />
+    <entry file="file://$PROJECT_DIR$/mysite/templates/directory/publishing_confirm_delete.html" />
+    <entry file="file://$PROJECT_DIR$/mysite/templates/directory/genre_detail.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
           <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mysite/products/shell.py">
+    <entry file="file://$PROJECT_DIR$/mysite/templates/directory/publishing_detail.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-264">
-          <caret column="29" lean-forward="true" selection-start-column="29" selection-end-column="29" />
+        <state relative-caret-position="220">
+          <caret line="10" column="50" selection-start-line="10" selection-start-column="50" selection-end-line="10" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysite/templates/directory/author_confirm_delete.html" />
+    <entry file="file://$PROJECT_DIR$/mysite/templates/directory/series_confirm_delete.html" />
+    <entry file="file://$PROJECT_DIR$/mysite/templates/directory/series_detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mysite/mysite/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="110" column="11" selection-start-line="110" selection-start-column="11" selection-end-line="110" selection-end-column="11" />
+        <state relative-caret-position="-1583">
+          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mysite/templates/products/publishing_form.html">
+    <entry file="file://$PROJECT_DIR$/mysite/templates/form/update_form.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="15" lean-forward="true" selection-start-column="15" selection-end-column="15" />
+        <state relative-caret-position="132">
+          <caret line="6" column="33" lean-forward="true" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mysite/templates/products/series_form.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mysite/templates/products/create_form.html">
+    <entry file="file://$PROJECT_DIR$/mysite/templates/book/book_confirm_delete.html" />
+    <entry file="file://$PROJECT_DIR$/mysite/templates/form/delete_form.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" column="7" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+        <state relative-caret-position="264">
+          <caret line="12" column="19" lean-forward="true" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mysite/products/models.py">
+    <entry file="file://$PROJECT_DIR$/mysite/directory/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3">
-          <caret line="78" column="15" selection-start-line="78" selection-start-column="15" selection-end-line="78" selection-end-column="15" />
+        <state relative-caret-position="381">
+          <caret line="36" column="77" lean-forward="true" selection-start-line="36" selection-start-column="77" selection-end-line="36" selection-end-column="77" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
-            <element signature="e#150#549#0" />
-            <element signature="e#584#837#0" />
-            <element signature="e#871#1122#0" />
-            <element signature="e#1161#1424#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mysite/templates/products/all_handbook_view.html">
+    <entry file="file://$PROJECT_DIR$/mysite/templates/directory/genre_list.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="616">
-          <caret line="28" column="12" lean-forward="true" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
+        <state relative-caret-position="308">
+          <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+          <folding>
+            <element signature="e#709#715#0" expanded="true" />
+            <element signature="e#815#821#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mysite/templates/products/products_form.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mysite/templates/products/genre_form.html">
+    <entry file="file://$PROJECT_DIR$/mysite/templates/directory/publishing_list.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="7" lean-forward="true" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+        <state relative-caret-position="308">
+          <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+          <folding>
+            <element signature="e#810#816#0" expanded="true" />
+            <element signature="e#921#927#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mysite/templates/products/create_form.html">
+    <entry file="file://$PROJECT_DIR$/mysite/templates/directory/series_list.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="308">
+          <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+          <folding>
+            <element signature="e#712#718#0" expanded="true" />
+            <element signature="e#820#826#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mysite/products/forms.py">
+    <entry file="file://$PROJECT_DIR$/mysite/directory/forms.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1430">
-          <caret line="74" lean-forward="true" selection-start-line="74" selection-end-line="74" />
+        <state relative-caret-position="176">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
           <folding>
             <element signature="e#0#24#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mysite/templates/products/update_form.html">
+    <entry file="file://$PROJECT_DIR$/mysite/templates/directory/all_directory_view.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="374">
+          <caret line="17" column="7" lean-forward="true" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mysite/templates/products/genre_detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="38" lean-forward="true" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mysite/templates/products/publishing_detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mysite/templates/products/series_detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mysite/templates/products/author_detail.html">
+    <entry file="file://$PROJECT_DIR$/mysite/templates/directory/author_detail.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
           <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mysite/templates/products/products_detail.html">
+    <entry file="file://$PROJECT_DIR$/mysite/templates/main/wrapper.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+        <state relative-caret-position="375">
+          <caret line="45" column="6" lean-forward="true" selection-start-line="45" selection-start-column="6" selection-end-line="45" selection-end-column="6" />
+          <folding>
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mysite/templates/products/author_list.html">
+    <entry file="file://$PROJECT_DIR$/mysite/templates/form/create_form.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+        <state relative-caret-position="176">
+          <caret line="8" column="19" lean-forward="true" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mysite/templates/products/genre_list.html">
+    <entry file="file://$PROJECT_DIR$/mysite/templates/directory/author_list.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="30" column="24" lean-forward="true" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
+        <state relative-caret-position="44">
+          <caret line="8" column="19" lean-forward="true" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysite/book/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mysite/mysite/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="36" column="67" selection-start-line="36" selection-start-column="67" selection-end-line="36" selection-end-column="67" />
+        <state relative-caret-position="400">
+          <caret line="21" column="36" lean-forward="true" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
           <folding>
             <element signature="e#630#662#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mysite/templates/products/series_list.html">
+    <entry file="file://$PROJECT_DIR$/mysite/book/forms.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mysite/templates/products/publishing_list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="43" column="35" selection-start-line="43" selection-start-column="35" selection-end-line="43" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mysite/templates/products/products_list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="78" column="29" selection-start-line="78" selection-start-column="29" selection-end-line="78" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mysite/products/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1295">
-          <caret line="187" column="39" selection-start-line="187" selection-start-column="39" selection-end-line="187" selection-end-column="39" />
+        <state relative-caret-position="110">
+          <caret line="14" column="30" lean-forward="true" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
           <folding>
-            <element signature="e#0#35#0" expanded="true" />
-            <element signature="e#186#681#0" />
-            <element signature="e#714#1080#0" />
+            <element signature="e#0#24#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mysite/son dlya slabakov">
+    <entry file="file://$PROJECT_DIR$/mysite/main/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysite/templates/book/book_card_list.html">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="68" selection-start-column="68" selection-end-column="68" />
+          <caret column="15" lean-forward="true" selection-start-column="15" selection-end-column="15" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysite/main/models.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysite/directory/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="22" lean-forward="true" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysite/templates/book/book_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="770">
+          <caret line="35" column="20" lean-forward="true" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
+          <folding>
+            <element signature="e#1180#1186#0" expanded="true" />
+            <element signature="e#1285#1291#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysite/directory/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="e#0#103#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysite/book/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="e#0#89#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysite/book/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="9" column="46" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysite/templates/main/mainPage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="16" selection-start-line="16" selection-start-column="4" selection-end-line="21" selection-end-column="11" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysite/templates/book/book_detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysite/main/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
